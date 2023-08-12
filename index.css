@@ -1,0 +1,378 @@
+@font-face {
+    font-family: 'Geek';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+
+    font-family: 'Geek';
+}
+
+body {
+    padding-top: 110px;
+    background-color: whitesmoke;
+}
+header {
+    width: 100%;
+    height: 60px;
+
+    top: 0%;
+    position: fixed;
+    background-color: white;
+
+    margin-bottom: 0;
+    border-bottom: 5px solid white;
+
+    z-index: 400;
+}
+#bar_header {
+    margin: 0 auto;
+    width: 50vw;
+    height: 60px;
+
+    border-bottom: 5px solid whitesmoke;
+
+}
+#img_header {
+    position: fixed;
+    height: 50px;
+
+    margin-top: -10px;
+    margin-left: 0px;
+
+    z-index: 400;
+}
+#button_header {
+    float: right;
+}
+#user_login {
+    height: 40px;
+    width: auto;
+    margin: 12px 12px 0 0;
+    background-color: white;
+}
+#alim {
+    height: 40px;
+    width: auto;
+    margin: 12px 12px 0 0;
+    background-color: white;
+}
+#search {
+    height: 40px;
+    width: auto;
+    margin: 12px 12px 0 0;
+    background-color: white;
+}
+#user_login:hover {
+    background-color: gray;
+}
+#alim:hover {
+    background-color: gray;
+}
+#search:hover {
+    background-color: gray;
+}
+.header_p {
+    padding: 1px 3vw 1px 3vw;
+    font-size: 30px;
+
+    text-align: center;
+}
+#header_menu {
+    top: 64px;
+    height: 40px;
+    width: 100vw;
+    position: fixed;
+
+    align-items: center;
+    text-align: center;
+
+    overflow-x: auto;
+    margin: 0 auto;
+
+    background-color: white;
+    border-bottom: 5px solid #210; 
+    
+    z-index: 400;
+}
+#menu_mini {
+    height: 27px;
+    width: 55vw;
+
+    margin: auto;
+}
+button {
+    border: none;
+    background: transparent;
+
+    font-size: 30px;
+}
+
+button:hover {
+    color: gray;
+}
+
+/* ----동아리 간단한 주가와 실시간 등략률 표시해주는 칸---------- */
+
+.box_box {
+    margin: 3vmin auto 0 auto;
+    width: 50vw;
+    height: 36vmin;    
+    
+    background-color: white;
+    /* border-bottom: 5px solid #210; */
+    /* border-top: 5px solid lightgray; */
+
+    white-space:nowrap;
+    overflow: scroll;
+
+}
+.box_box_box {
+    width: 170vmin;
+}
+.juga_box {
+    margin: 5vmin 0 0 3vmin;
+    float: left;
+    width: 20vmin;
+    height: 25vmin;
+    overflow: hidden;
+
+    border-radius: 10%;
+    background-color: white;
+    border: 4px solid #210;
+}
+.box_box::-webkit-scrollbar{
+    display: none; 
+}
+.juga_button {
+    width: 20vmin;
+    height: 25vmin;
+}
+.bar {
+    position: relative;
+    width: 18vmin;
+    height: 0.5vmin;
+
+    left: 1vmin;
+    top: -9vmin;
+    background-color: black;
+    border-radius: 60px;
+
+}
+.p_box {
+    position: relative;
+    top: -10vmin;
+    left: -1vmin;
+
+    font-size: 3vmin;
+    text-overflow: ellipsis;
+
+}
+
+/* ----------------------------------------------------------- */
+/* ----다양한 상태와 순위들을 표시해주는 칸---------------------- */
+
+.rank_box {
+    margin: 7vmin auto 0 auto;
+
+    width: 50vw;
+    height: 80vmin;
+
+    background-color: white;
+}
+
+.chapter {
+    position: relative;
+    
+    top: 1vmin;
+    left: 3vmin;
+    font-size: 5vmin;
+
+    color: black;
+    text-decoration-line: none;
+}
+
+.detail {
+    position: relative;
+    width: 0px;
+    height: 0px;
+
+    top: -3vmin;
+    left: 40vmin;
+
+    border-left: 2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    border-top: 3vmin solid #210;
+    /* border-bottom: 10px solid honeydew; */
+}
+
+.detail_menu_bar {
+    width: 15vmin;
+    height: 23vmin;
+    margin: 1vmin 0 0 0;
+
+    font-size: 2.5vmin;
+
+    border-radius: 2vmin;
+    border: 4px solid #210;
+
+    background-color: white;
+    list-style: none;
+}
+
+#check-btn {
+    display: none;
+}
+#check-btn:checked ~ .menubars {display: block;} 
+.menubars {
+    position: relative;
+    display: none;
+
+    top: -3vmin;
+    left: 45vmin;
+
+    height: 15vmin;
+    width: 10vmin;
+    background-color: lightgray;
+    border-radius: 1vmin;
+    border: 4px solid #210;
+
+    list-style-type: none;
+
+    color: black;
+    line-height: 3vmin;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+.under_menu {
+    position: relative;
+
+    top: 1.5vmin;
+    left: 4vmin;
+    width: 4vmin;
+}
+
+.button_menu {
+    font-size: 2vmin;
+
+    margin-left: 0.5vmin;
+}
+
+.button_menu:hover {
+    color: blue;
+}
+
+
+@media screen and (max-width: 767px) {
+    body {
+        padding-top: 77px;
+    }
+    header {
+        height: 40px;
+    }  
+    #bar_header {
+        width: 100vw;
+        height: 40px;
+    }
+    #header_menu {
+        top: 45px;
+        height:27px;
+
+        border-bottom: 2px solid #210;
+    }
+    #user_login {
+        margin: 10px 10px 0 0;
+        height: 20px;
+    }
+    #alim {
+        height: 20px;
+        margin: 10px 7px 0 0;
+    }
+    #search {
+        height: 20px;
+        margin: 10px 7px 0 0;}
+
+    /* ----동아리 간단한 주가와 실시간 등략률 표시해주는 칸---------- */
+
+    .box_box {
+        width: 100%;
+        height: 36vw;
+        
+        /* border-bottom: 3px solid #210; */
+        /* border-top: 3px solid #210;     */
+    }
+    .box_box_box {
+        width:190vmin;
+    }
+    .juga_box {
+        margin: 5vmin 0 0 5vmin;
+        border: 2px solid #210;
+
+    }
+    /*-----------------------------------------------------------*/
+    /* ----다양한 상태와 순위들을 표시해주는 칸---------------------- */
+    
+    .rank_box {
+        width: 100%;
+    }
+    
+    .chapter {
+        position: relative;
+
+        top: 2vmin;
+        left: 3vmin;
+
+        font-size: 7vmin;
+    }
+
+    .detail {
+        width: 0px;
+        height: 0px;
+
+        top: -3.5vmin;
+        left: 53vmin;
+
+        border-left: 2.5vmin solid transparent;
+        border-right: 2.5   vmin solid transparent;
+        border-top: 4vmin solid #210;
+    }
+
+    .under_menu {
+        left: 3vmin;
+    }
+
+    .menubars {
+        top: -3vmin;
+        left: 58vmin;
+
+        height: 31vmin;
+        width: 13vmin;
+
+        line-height: 6vmin;
+
+        border: 0.7vmin solid #210;
+    }
+
+    .button_menu {
+        font-size: 4vmin;
+    }
+    /*-----------------------------------------------------------*/
+    .header_p {
+        font-size: 20px;
+    }
+    #img_header {
+        margin: -10px 0px 0px 7px;
+        width: auto;
+        height: 30px;
+        float: left;
+    }
+    button {
+        font-size: 22px;
+    }
+}
