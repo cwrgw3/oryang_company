@@ -22,7 +22,7 @@ header {
     height: 60px;
 
     top: 0%;
-    position: fixed;
+    position: absolute;
     background-color: white;
 
     margin-bottom: 0;
@@ -39,7 +39,7 @@ header {
 
 }
 #img_header {
-    position: fixed;
+    position: absolute;
     height: 50px;
 
     margin-top: -10px;
@@ -83,23 +83,24 @@ header {
 
     text-align: center;
 }
+
 #header_menu {
-    top: 64px;
+    top: 0px;
     height: 40px;
-    width: 100vw;
-    position: fixed;
+    width: 100%;
+    position: sticky;
 
     align-items: center;
     text-align: center;
 
-    overflow-x: auto;
+    overflow: hidden;
     margin: 0 auto;
 
     background-color: white;
     border-bottom: 5px solid #210; 
     
-    z-index: 400;
-}
+    z-index: 400;}
+
 #menu_mini {
     height: 27px;
     width: 55vw;
