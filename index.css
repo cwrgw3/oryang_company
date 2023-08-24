@@ -282,7 +282,8 @@ button:hover {
         height: 40px;
     }
     #header_menu {
-        top: 45px;
+        padding-top:0px; 
+        top: 0px;
         height:27px;
 
         border-bottom: 2px solid #210;
