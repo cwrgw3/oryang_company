@@ -274,9 +274,7 @@ button:hover {
     body {
         padding-top: 40px;
     }
-    header {
-        height: 40px;
-    }  
+
     #bar_header {
         width: 100vw;
         height: 40px;
