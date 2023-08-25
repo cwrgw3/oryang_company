@@ -14,7 +14,7 @@
 }
 
 body {
-    padding-top: 110px;
+    padding-top: 64px;
     background-color: whitesmoke;
 }
 header {
@@ -83,8 +83,8 @@ header {
 
     text-align: center;
 }
-
 #header_menu {
+    padding: -30px;
     top: 0px;
     height: 40px;
     width: 100%;
@@ -93,14 +93,14 @@ header {
     align-items: center;
     text-align: center;
 
-    overflow: hidden;
+    overflow-x: auto;
     margin: 0 auto;
 
     background-color: white;
     border-bottom: 5px solid #210; 
     
-    z-index: 400;}
-
+    z-index: 400;
+}
 #menu_mini {
     height: 27px;
     width: 55vw;
@@ -282,7 +282,7 @@ button:hover {
         height: 40px;
     }
     #header_menu {
-        padding-top:0px; 
+        padding: 0px;
         top: 0px;
         height:27px;
 
