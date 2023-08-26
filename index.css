@@ -272,9 +272,11 @@ button:hover {
 
 @media screen and (max-width: 767px) {
     body {
-        padding-top: 40px;
+        padding-top: 45px;
     }
-
+    /* header {
+        height: 40px;
+    }   */
     #bar_header {
         width: 100vw;
         height: 40px;
