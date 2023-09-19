@@ -143,6 +143,14 @@ button:hover {
     white-space:nowrap;
 }
 
+.chose_bar {
+    position: relative;
+    width: 50vw;
+    height: 3em;
+    border-bottom: #210 0.5em;
+    background-color: white;
+}
+
 .juga_box {
     margin: 5vmin 0 0 3vmin;
     float: left;
