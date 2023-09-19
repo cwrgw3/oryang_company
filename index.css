@@ -38,6 +38,17 @@ header {
     border-bottom: 5px solid whitesmoke;
 
 }
+
+.box_thema {
+    color: black;
+    position: relative;
+    font-size: 2rem;
+
+    top: -1.5em;
+}
+
+
+
 #img_header {
     position: absolute;
     height: 50px;
@@ -121,21 +132,17 @@ button:hover {
 /* ----동아리 간단한 주가와 실시간 등략률 표시해주는 칸---------- */
 
 .box_box {
-    margin: 3vmin auto 0 auto;
+    margin: 5em auto 0 auto;
     width: 50vw;
     height: 36vmin;    
     
-    background-color: white;
+    background-color: gray;
     /* border-bottom: 5px solid #210; */
     /* border-top: 5px solid lightgray; */
 
     white-space:nowrap;
-    overflow: scroll;
+}
 
-}
-.box_box_box {
-    width: 170vmin;
-}
 .juga_box {
     margin: 5vmin 0 0 3vmin;
     float: left;
